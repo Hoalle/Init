@@ -1,1 +1,3 @@
-/etc/debian_version
+#!/bin/sh
+echo "/etc/debian_version"
+cat /etc/debian_version
