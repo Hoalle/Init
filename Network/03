@@ -1,2 +1,4 @@
 #!/bin/sh
 networksetup -getinfo wi-fi | grep "Wi-Fi ID" | cut -d ' ' -f3
+#networksetup -getmacadress Wi-fi
+#ifconfig en1 | awk '/ether/{print $2}'

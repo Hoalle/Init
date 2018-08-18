@@ -1,4 +1,8 @@
+#!/bin/sh
+
+echo "dig slash16.org
+-> trouver l'adresse IP du site : 13.32.182.252"
 dig slash16.org
--> trouver l'adresse IP du site : 13.32.182.252
+echo "whois 13.32.182.252
+-> hebergeur de cette IP : Amazon"
 whois 13.32.182.252
--> hebergeur de cette IP : Amazon
