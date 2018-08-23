@@ -1,2 +1,3 @@
 #man uptime
+#!/bin/sh
 uptime

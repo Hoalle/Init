@@ -1,8 +1,20 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    08                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: cperrard <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/08/21 19:26:59 by cperrard          #+#    #+#              #
+#    Updated: 2018/08/21 19:33:37 by cperrard         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
 #!/bin/sh
 
-echo "dig slash16.org
--> trouver l'adresse IP du site : 13.32.182.252"
-dig slash16.org
-echo "whois 13.32.182.252
+echo "nslookup slash16.org
+-> trouver l'adresse IP du site : 52.85.221.158"
+nslookup slash16.org
+echo "whois 52.85.221.158
 -> hebergeur de cette IP : Amazon"
-whois 13.32.182.252
+whois 52.85.221.158
